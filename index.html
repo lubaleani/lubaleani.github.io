@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luciana Baleani | Stretching y yoga en Lanús</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Luciana Baleani: clases presenciales de stretching, yoga integral y entrenamiento natural en Lanús, Buenos Aires. Horarios y reservas por WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Luciana Baleani | Stretching y yoga en Lanús">
+<meta property="og:description" content="Clases de stretching, yoga integral y entrenamiento natural en Lanús. Horarios y reservas por WhatsApp.">
+<meta property="og:locale" content="es_AR">
+<meta name="theme-color" content="#FBF6EF">
+<link rel="icon" type="image/png" href="images/isotipo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Mezcla: la paleta que ya les gustaba (crema, arena, verde agua, rosa, lila, ciruela)
+   + los colores del manual de Expande Holístico (turquesa, rosa, durazno, celeste, dorado).
+   Una sola mirada clara a propósito: es la identidad de la marca. */
+:root{
+  --crema:#FBF6EF; --arena:#F1E7DA; --verde-agua:#CFE6E4; --rosa:#F3DFE6; --lila:#E5D3EA;
+  --texto:#3A2540; --texto-suave:#4F3D56; --acento:#6B3A7D;
+  --turquesa:#43A8A2; --turquesa-osc:#2B7A75; --rosa-marca:#D298B1;
+  --durazno:#FEE2D5; --celeste:#CDE7F6; --dorado:#DFBB65; --blanco:#FFFFFF;
+  --f-titulo:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --f-texto:'Quicksand','Nunito Sans',system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--crema);color:var(--texto);font-family:var(--f-texto);font-size:18px;font-weight:500;line-height:1.6}
+img{max-width:100%;display:block}
+a{color:var(--turquesa-osc)}
+a:hover{color:var(--texto)}
+a:focus-visible{outline:3px solid var(--dorado);outline-offset:3px;border-radius:6px}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:500;text-wrap:balance;margin:0}
+p{margin:0}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+@media (max-width:700px){.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}}
+
+/* Botón principal (uno solo en toda la página) */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 28px;border-radius:999px;background:var(--turquesa-osc);color:var(--blanco);font-family:var(--f-texto);font-size:18px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .2s}
+.btn:hover{background:#225F5B;color:var(--blanco)}
+.btn-grande{min-height:58px;padding:0 34px;font-size:19px}
+.btn svg{width:22px;height:22px;flex:none}
+
+/* Barra superior */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--crema)}
+.barra{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--crema);border-bottom:1px solid #EADFD0}
+.barra .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:8px}
+.marca{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--texto)}
+.marca img{height:46px;width:auto}
+.marca span{font-family:var(--f-titulo);font-size:27px;font-weight:600;letter-spacing:0.3px;line-height:1.1;white-space:nowrap}
+.menu{display:flex;align-items:center;gap:2px}
+.menu a.lnk{display:inline-flex;align-items:center;min-height:44px;padding:0 13px;color:var(--texto);font-size:17px;font-weight:600;text-decoration:none}
+.menu a.lnk:hover{color:var(--turquesa-osc)}
+.menu .btn{margin-left:8px;min-height:48px;padding:0 22px;font-size:17px}
+@media (max-width:1020px){.menu a.lnk{display:none}}
+@media (max-width:700px){.menu{display:none}.marca img{height:42px}.marca span{font-size:25px}}
+
+/* Portada */
+.portada .wrap{display:flex;flex-wrap:wrap;gap:40px;align-items:center;padding-block:56px 64px}
+.portada-texto{flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:22px}
+.ceja{font-size:15px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:var(--turquesa-osc)}
+.portada h1{font-size:clamp(44px,6.5vw,76px);line-height:1.02;letter-spacing:-0.5px}
+.portada h1 em{color:var(--acento);font-weight:600}
+.portada-bajada{font-size:20px;color:var(--texto-suave);max-width:34em}
+.acciones{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;margin-top:6px}
+.link-sec{display:inline-flex;align-items:center;min-height:44px;font-size:17px;font-weight:700}
+.portada-foto{flex:1 1 320px;min-width:0;display:flex;justify-content:center}
+.arco{position:relative;width:100%;max-width:420px}
+.arco-img{position:relative;height:500px;border-radius:999px 999px 28px 28px;background:var(--celeste);overflow:hidden}
+.arco-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 45%}
+.arco-iso{position:absolute;left:-26px;bottom:26px;width:96px;height:96px;border-radius:50%;background:var(--crema);display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 6px var(--durazno)}
+.arco-iso img{width:58px;height:auto}
+@media (max-width:700px){.portada-foto{order:-1}.arco-img{height:420px}.arco-iso{left:8px;bottom:-22px;width:80px;height:80px}.arco-iso img{width:48px}.portada .wrap{padding-block:28px 56px}}
+
+/* Testimonio */
+.testimonio{background:var(--celeste)}
+.testimonio .wrap{max-width:860px;padding-block:48px;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center}
+.comillas{font-family:var(--f-titulo);font-size:72px;line-height:.5;color:var(--dorado);height:30px}
+.testimonio blockquote{margin:0;font-family:var(--f-titulo);font-style:italic;font-size:clamp(24px,3.2vw,32px);line-height:1.35;color:#2A2030}
+.testimonio cite{font-style:normal;font-size:16px;font-weight:700;color:#1F5557}
+.testimonio cite a{color:#1F5557}
+
+/* Títulos de sección con línea dorada */
+.titulo-sec{display:flex;flex-direction:column;gap:12px;max-width:34em;margin-bottom:32px}
+.titulo-sec h2{font-size:clamp(34px,4.5vw,48px);line-height:1.08}
+.titulo-sec h2::after{content:"";display:block;width:56px;height:3px;border-radius:3px;background:var(--dorado);margin-top:14px}
+.titulo-sec p{color:var(--texto-suave)}
+
+/* Clases */
+.clases .wrap{padding-block:80px 72px}
+.dias{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.dia{background:var(--arena);border-radius:24px;padding:24px;display:flex;flex-direction:column;gap:14px}
+.dia h3{font-size:30px;font-weight:600;line-height:1.1;color:var(--turquesa-osc)}
+.dia ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.dia li strong{display:block;font-size:19px;font-weight:700;font-variant-numeric:tabular-nums}
+.dia li span{font-size:16px;color:var(--texto-suave)}
+.extras{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:16px}
+.extra{border-radius:24px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.extra h3{font-size:26px;font-weight:600;line-height:1.15}
+.extra p{font-size:17px}
+.extra-rosa{background:var(--rosa)}
+.extra-verde{background:var(--verde-agua)}
+.donde{margin-top:24px;font-size:16px;color:var(--texto-suave)}
+.donde a{display:inline-block;padding:10px 4px;font-weight:700}
+
+/* Sobre mí */
+.sobre{background:var(--durazno)}
+.sobre .wrap{display:flex;flex-wrap:wrap;gap:48px;align-items:center;padding-block:80px}
+.sobre-foto{flex:1 1 280px;min-width:0;display:flex;justify-content:center}
+.circulo{position:relative;width:100%;max-width:340px;aspect-ratio:1;border-radius:50%;overflow:hidden;background:var(--rosa-marca);box-shadow:0 0 0 10px var(--crema)}
+.circulo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 55%}
+.sobre-texto{flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:20px}
+.sobre-texto h2{font-size:clamp(34px,4.5vw,48px);line-height:1.08}
+.sobre-texto > p{max-width:34em;color:#3F2C3A}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.chips span{padding:8px 16px;border-radius:999px;background:var(--crema);color:#23474A;font-size:16px;font-weight:600}
+.frase{display:flex;gap:16px;align-items:flex-start;margin-top:8px}
+.frase img{width:44px;height:auto;flex:none;margin-top:4px}
+.frase p{font-family:var(--f-titulo);font-style:italic;font-size:26px;line-height:1.35;color:var(--acento);max-width:24em}
+
+/* Acompañamiento */
+.acomp .wrap{padding-block:80px}
+.tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.tarjeta{background:var(--lila);border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px}
+.tarjeta h3{font-size:28px;font-weight:600;line-height:1.1}
+.tarjeta p{font-size:17px;color:#3C2A44}
+.tarjeta .nota{font-size:15px;color:#4A3652}
+
+/* Cierre */
+.cierre{background:var(--turquesa-osc);color:var(--blanco)}
+.cierre .wrap{max-width:760px;padding-block:72px;display:flex;flex-direction:column;align-items:center;gap:20px;text-align:center}
+.cierre .iso{width:84px;height:auto}
+.cierre h2{font-size:clamp(38px,5.5vw,60px);line-height:1.05}
+.cierre p{font-size:19px;color:#E8F4F3;max-width:30em}
+.cierre .btn{background:var(--crema);color:var(--texto)}
+.cierre .btn:hover{background:var(--durazno);color:var(--texto)}
+.cierre .ig{display:inline-flex;align-items:center;min-height:44px;color:var(--durazno);font-size:17px;font-weight:600}
+
+.pie .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;padding-block:28px 32px;font-size:15px;color:var(--texto-suave)}
+.pie img{height:36px;width:auto}
+
+/* Botón fijo en celular */
+.cta-fijo{display:none}
+@media (max-width:700px){
+  .cta-fijo{display:block;position:sticky;bottom:0;z-index:20;background:var(--crema);border-top:1px solid #EADFD0;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  .cta-fijo .btn{display:flex;width:100%}
+}
+</style>
+</head>
+<body>
+
+<header class="barra">
+  <div class="wrap">
+    <a class="marca" href="#">
+      <img src="images/isotipo.png" alt="" width="39" height="46">
+      <span>Luciana Baleani</span>
+    </a>
+    <nav class="menu" aria-label="Menú">
+      <a class="lnk" href="#clases">Clases</a>
+      <a class="lnk" href="#sobre-mi">Sobre mí</a>
+      <a class="lnk" href="#acompanamiento">Acompañamiento</a>
+      <a class="btn" href="https://wa.me/5491132820157?text=Hola%20Luciana!%20Quiero%20reservar%20una%20clase">Reservar por WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- 1. PORTADA -->
+  <section class="portada">
+    <div class="wrap">
+      <div class="portada-texto">
+        <div class="ceja">Clases presenciales en Lanús</div>
+        <h1>Stretching y yoga para <em>soltar tu cuerpo</em></h1>
+        <p class="portada-bajada">Movimiento y respiración para ganar flexibilidad, soltar tensión y volver a habitar tu cuerpo, a tu ritmo.</p>
+        <div class="acciones">
+          <a class="btn btn-grande" href="https://wa.me/5491132820157?text=Hola%20Luciana!%20Quiero%20reservar%20una%20clase">Reservar por WhatsApp</a>
+          <a class="link-sec" href="#clases">Ver horarios ↓</a>
+        </div>
+      </div>
+      <div class="portada-foto">
+        <div class="arco">
+          <div class="arco-img">
+            <img src="images/luciana-hero.jpg" alt="Luciana meditando al aire libre, sentada sobre una colchoneta entre plantas" width="420" height="500">
+          </div>
+          <div class="arco-iso"><img src="images/isotipo.png" alt="" width="58" height="68"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. TESTIMONIO -->
+  <section class="testimonio">
+    <div class="wrap">
+      <div class="comillas" aria-hidden="true">“</div>
+      <blockquote>Hace un año que Luciana es mi profesora y me cambió la vida: me siento otra persona.</blockquote>
+      <cite>Julia Guillen · <a href="https://www.instagram.com/juliaguillennn/">@juliaguillennn</a></cite>
+    </div>
+  </section>
+
+  <!-- 3. CLASES Y HORARIOS -->
+  <section id="clases" class="clases">
+    <div class="wrap">
+      <div class="titulo-sec">
+        <h2>Clases y horarios</h2>
+        <p>Elegí tu día y escribime para reservar tu lugar.</p>
+      </div>
+      <div class="dias">
+        <div class="dia"><h3>Lunes</h3><ul>
+          <li><strong>10:00 · Stretching activo</strong><span>INYO</span></li>
+          <li><strong>18:00 · Yoga integral</strong><span>INYO</span></li>
+          <li><strong>19:30 · Stretching activo</strong><span>OPUS · hasta las 21:00</span></li>
+        </ul></div>
+        <div class="dia"><h3>Martes</h3><ul>
+          <li><strong>14:00 · Entrenamiento natural</strong><span>INYO</span></li>
+          <li><strong>18:00 · Stretching activo</strong><span>Worldance</span></li>
+        </ul></div>
+        <div class="dia"><h3>Miércoles</h3><ul>
+          <li><strong>12:00 · Stretching activo</strong><span>Bunker Gym</span></li>
+          <li><strong>18:00 · Yoga integral</strong><span>INYO</span></li>
+          <li><strong>19:30 · Stretching activo</strong><span>OPUS · hasta las 21:00</span></li>
+        </ul></div>
+        <div class="dia"><h3>Jueves</h3><ul>
+          <li><strong>10:00 · Stretching activo</strong><span>INYO</span></li>
+          <li><strong>14:00 · Entrenamiento natural</strong><span>INYO</span></li>
+          <li><strong>18:00 · Stretching activo</strong><span>Worldance</span></li>
+        </ul></div>
+      </div>
+      <div class="extras">
+        <div class="extra extra-rosa">
+          <h3>Qué vas a practicar</h3>
+          <p><strong>Stretching activo:</strong> movilidad y flexibilidad para todo el cuerpo.</p>
+          <p><strong>Yoga integral:</strong> posturas, respiración y meditación. Este mes, Sadhana de los Chakras.</p>
+          <p><strong>Entrenamiento natural:</strong> flexibilidad, fuerza, coordinación y equilibrio.</p>
+        </div>
+        <div class="extra extra-verde">
+          <h3>En la naturaleza</h3>
+          <p>Encuentros al aire libre de stretching y yoga. Fecha, hora y lugar a confirmar.</p>
+          <p>Valores y modalidades: consultá directamente a Luciana.</p>
+        </div>
+      </div>
+      <p class="donde">Dónde: <a href="https://www.instagram.com/espacio_inyo/">INYO</a> · <a href="https://www.instagram.com/opusveinte/">OPUS</a> · <a href="https://www.instagram.com/worldanceroomar/">Worldance</a> · <a href="https://www.instagram.com/bunker_musculargym/">Bunker Gym</a>. Clases online, muy pronto.</p>
+    </div>
+  </section>
+
+  <!-- 4. SOBRE MÍ -->
+  <section id="sobre-mi" class="sobre">
+    <div class="wrap">
+      <div class="sobre-foto">
+        <div class="circulo"><img src="images/grupo-alumnas.jpg" alt="Grupo de alumnas sonriendo juntas después de una clase" width="340" height="340"></div>
+      </div>
+      <div class="sobre-texto">
+        <h2>Hola, soy Luciana</h2>
+        <p>Empecé a bailar a los 16 y descubrí que el arte también sana. Más tarde, trabajando en un banco, me sentía con el cuerpo rígido y mucho caos mental. El coaching y el movimiento me ayudaron a sanar mi cuerpo, mi autoestima y mi confianza.</p>
+        <p>Hoy comparto movimientos que flexibilizan el cuerpo y también la mente, para crear bienestar, calma e integración.</p>
+        <div class="chips">
+          <span>Profesora de yoga integral</span>
+          <span>Instructora de stretching y gimnasia postural</span>
+          <span>Coach ontológica certificada, especializada en cuerpo y emociones</span>
+          <span>Coach deportivo</span>
+          <span>Terapeuta holística</span>
+          <span>Maestra de registros akáshicos y reiki</span>
+          <span>Bailarina de salsa y bachata</span>
+        </div>
+        <div class="frase">
+          <img src="images/isotipo.png" alt="" width="44" height="52">
+          <p>Creo que lo más importante es amarse a uno mismo para poder estar bien con el mundo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ACOMPAÑAMIENTO -->
+  <section id="acompanamiento" class="acomp">
+    <div class="wrap">
+      <div class="titulo-sec">
+        <h2>Acompañamiento personal</h2>
+        <p>Además de las clases, acompaño procesos de transformación. Escribime y vemos cuál te hace bien.</p>
+      </div>
+      <div class="tarjetas">
+        <div class="tarjeta">
+          <h3>Coaching 1:1</h3>
+          <p>Autoconocimiento y cambio con coaching ontológico y trabajo corporal. Formatos Claridad (1 sesión), Transforma (4) y Transforma Full (8). Online.</p>
+          <p class="nota">No reemplaza una terapia ni la atención de un profesional de la salud.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>Sanación akáshica</h3>
+          <p>Sesión individual de lectura de tus registros akáshicos, con visualización y meditación guiada. Online, en Lanús Oeste o a domicilio.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>Iniciación akáshica</h3>
+          <p>Nivel I: aprendé a abrir tus propios registros y cuidar tu campo energético. 4 encuentros de 2 h 30, online.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. CIERRE -->
+  <section id="contacto" class="cierre">
+    <div class="wrap">
+      <img class="iso" src="images/isotipo-blanco.png" alt="" width="84" height="99">
+      <h2>¿Empezamos a movernos?</h2>
+      <p>Escribime y te cuento qué clase te queda mejor.</p>
+      <a class="btn btn-grande" href="https://wa.me/5491132820157?text=Hola%20Luciana!%20Quiero%20reservar%20una%20clase">Reservar por WhatsApp</a>
+      <a class="ig" href="https://www.instagram.com/lu.yoga.flex/">Instagram: @lu.yoga.flex</a>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="wrap">
+    <img src="images/isotipo.png" alt="" width="31" height="36">
+    <span>Luciana Baleani · Stretching, yoga y movimiento consciente · Lanús, Buenos Aires</span>
+  </div>
+</footer>
+
+<div class="cta-fijo">
+  <a class="btn" href="https://wa.me/5491132820157?text=Hola%20Luciana!%20Quiero%20reservar%20una%20clase">Reservar por WhatsApp</a>
+</div>
+
+</body>
+</html>
